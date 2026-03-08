@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <head>
+    <title>Latihan Praktikum 3</title>
+
+    <style>
+      .box {
+        width: 100px;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 10px;
+        text-align: left;
+        background-color: rgb(255, 0, 0);
+      }
+    </style>
+
+    <style>
+      /*Elemen dengan posisi Static(Default)*/
+
+      .static-box {
+        position: static;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(79, 243, 122);
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+      /*Elemen dengan posisi Relative*/
+      .relative-box {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(191, 0, 255);
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+
+      /*Elemen dengan posisi Absolute*/
+      .absolute-box {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(251, 255, 0);
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+
+      /*Elemen dengan posisi absolute positioning*/
+      .relative-container {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        background-color: rgb(0, 255, 255);
+        border: 2px solid black;
+      }
+
+      /*elemen dengan posisi fixed*/
+      .fixed-box {
+        position: fixed;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        background-color: grey;
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: blue; font-size: 24px">
+      Teks ini berwarna biru dan berukuran 24px
+    </h1>
+    <p style="background-color: yellow">
+      Teks ini memiliki latar belakang kuning
+    </p>
+
+    <div class="box">Ini adalah contoh penerapan box model</div>
+
+    <h1>Contoh CSS posisi</h1>
+    <div class="static-box">Ini adalah elemen dengan posisi static</div>
+    <div class="relative-box">Ini adalah elemen dengan posisi relative</div>
+    <div class="relative-container">
+      <div class="absolute-box">Ini adalah elemen dengan posisi absolute</div>
+    </div>
+    <div class="fixed-box">Ini adalah elemen dengan posisi fixed</div>
+  </body>
+</html>

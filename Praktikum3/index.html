@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Selamat Datang di Website Sederhana</h1>
+    </header>
+
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Tentang</a>
+      <a href="#">Layanan</a>
+      <a href="#">Kontak</a>
+    </nav>
+
+    <div class="container">
+      <div class="form-box">
+        <h2>Formulir Pendaftaran</h2>
+        <p>Silakan isi formulir di bawah ini untuk mendaftar.</p>
+
+        <form>
+          <label>Nama Lengkap</label>
+          <input type="text" />
+
+          <label>Email</label>
+          <input type="email" />
+
+          <label>Password</label>
+          <input type="password" />
+
+          <label>Jenis Kelamin</label>
+          <div class="radio">
+            <input type="radio" name="jk" /> Laki-laki
+            <input type="radio" name="jk" /> Perempuan
+          </div>
+
+          <label>Hobi</label>
+          <div class="checkbox">
+            <input type="checkbox" /> Musik <input type="checkbox" /> Olahraga
+            <input type="checkbox" /> Membaca
+          </div>
+
+          <label>Pilih Kota</label>
+          <select>
+            <option>Jakarta</option>
+            <option>Bandung</option>
+            <option>Surabaya</option>
+            <option>Yogyakarta</option>
+          </select>
+
+          <label>Pesan Tambahan</label>
+          <textarea placeholder="Tulis pesan di sini..."></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>
+          Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
