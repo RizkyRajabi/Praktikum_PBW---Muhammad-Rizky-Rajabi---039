@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar JavaScript</title>
+  </head>
+  <body>
+    <h1 id="Judul">Selamat datang di Belajar JavaScript</h1>
+    <button onclick="ubahText()">Ubah Teks</button>
+    <button onclick="alert('Hello, World!')">Klik Saya</button>
+    <button onclick="console.log('Tombol diklik!')">Log ke Konsol</button>
+    <button onclick="salam()">Salam</button>
+
+    <script>
+      function ubahText() {
+        document.getElementById("Judul").innerHTML = "Teks telah diubah!";
+      }
+
+      function salam() {
+        alert("Selamat datang di website kami!");
+      }
+    </script>
+  </body>
+</html>
